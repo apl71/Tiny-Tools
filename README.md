@@ -17,3 +17,5 @@ This will append a record like: {description}: {password} in file.
 - Specify the file to keep password:  
 `$python passwd_gen.py -p {path}`  
 If there is no -p option, it will use default path: ./passwd.txt
+
+If neither -s nor -p is used, the password will not be saved.
