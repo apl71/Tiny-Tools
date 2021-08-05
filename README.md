@@ -10,7 +10,7 @@ Generate and keep strong passwords.
 `$python passwd_gen.py -h`  
 - Specify the length of password:  
 `$python passwd_gen.py -l {length}`  
-`length` should be an positive integer.  
+`length` should be an positive integer. The default value is 12.  
 - Describe the password:  
 `$python passwd_gen.py -s {description}`  
 This will append a record like: {description}: {password} in file.  
